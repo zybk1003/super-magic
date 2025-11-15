@@ -19,7 +19,7 @@ on:
       - 'v*'
 
 env:
-  REGISTRY: ghcr.io
+  REGISTRY: ghcr.io/${{ github.repository_owner }}
   IMAGE: dtyq/super-magic
   BASE_IMAGE:  mcr.microsoft.com/playwright:v1.49.1-noble
 
